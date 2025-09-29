@@ -1,0 +1,55 @@
+/* тег */
+p {
+  background-color: lightgray;
+}
+
+/* клас */
+.red {
+  background-color: red;
+  color: white;
+}
+
+/* id */
+#unique {
+  background-color: green;
+  color: white;
+}
+
+/* атрибут */
+[title="info"] {
+  background-color: orange;
+  color: white;
+}
+
+/* вкладені селектори */
+div p {
+  background-color: yellow;
+}
+
+/* дочірні селектори */
+div > p {
+  background-color: lightblue;
+}
+
+/* послідовність селекторів */
+p.blue.special {
+  background-color: purple;
+  color: white;
+}
+
+/* комбінація тег + клас */
+span.highlight {
+  background-color: pink;
+}
+
+/* комбінація тег + атрибут */
+div[data-type="box"] {
+  background-color: brown;
+  color: white;
+}
+
+/* комбінація клас + id */
+p#combo.marked {
+  background-color: black;
+  color: white;
+}
